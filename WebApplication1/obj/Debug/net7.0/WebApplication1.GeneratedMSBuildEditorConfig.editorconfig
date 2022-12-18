@@ -1,0 +1,85 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = WebApplication1
+build_property.RootNamespace = WebApplication1
+build_property.ProjectDir = /Users/marmelad/RiderProjects/lab12/WebApplication1/
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/marmelad/RiderProjects/lab12/WebApplication1
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/marmelad/RiderProjects/lab12/WebApplication1/Pages/AllDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWxsRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/marmelad/RiderProjects/lab12/WebApplication1/Pages/AssemblyCreating.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQXNzZW1ibHlDcmVhdGluZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/marmelad/RiderProjects/lab12/WebApplication1/Pages/DetailCreating.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRGV0YWlsQ3JlYXRpbmcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/marmelad/RiderProjects/lab12/WebApplication1/Pages/DetailDeletedOk.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRGV0YWlsRGVsZXRlZE9rLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/marmelad/RiderProjects/lab12/WebApplication1/Pages/DetailDeleting.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRGV0YWlsRGVsZXRpbmcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/marmelad/RiderProjects/lab12/WebApplication1/Pages/DetailEditedOK.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRGV0YWlsRWRpdGVkT0suY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/marmelad/RiderProjects/lab12/WebApplication1/Pages/DetailEditing.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRGV0YWlsRWRpdGluZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/marmelad/RiderProjects/lab12/WebApplication1/Pages/EditingForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRWRpdGluZ0Zvcm0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/marmelad/RiderProjects/lab12/WebApplication1/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/marmelad/RiderProjects/lab12/WebApplication1/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/marmelad/RiderProjects/lab12/WebApplication1/Pages/NoDetailDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTm9EZXRhaWxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/marmelad/RiderProjects/lab12/WebApplication1/Pages/NoDetailEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTm9EZXRhaWxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/marmelad/RiderProjects/lab12/WebApplication1/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/marmelad/RiderProjects/lab12/WebApplication1/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/marmelad/RiderProjects/lab12/WebApplication1/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/marmelad/RiderProjects/lab12/WebApplication1/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/marmelad/RiderProjects/lab12/WebApplication1/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-vri0k6kfv3
