@@ -24,6 +24,42 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQXNzZW1ibHlDcmVhdGluZy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/marmelad/RiderProjects/lab12/WebApplication1/Pages/AssemblyCreatingOk.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQXNzZW1ibHlDcmVhdGluZ09rLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/marmelad/RiderProjects/lab12/WebApplication1/Pages/AssemblyDeletedOk.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQXNzZW1ibHlEZWxldGVkT2suY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/marmelad/RiderProjects/lab12/WebApplication1/Pages/AssemblyDeleting.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQXNzZW1ibHlEZWxldGluZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/marmelad/RiderProjects/lab12/WebApplication1/Pages/AssemblyEditing.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQXNzZW1ibHlFZGl0aW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/marmelad/RiderProjects/lab12/WebApplication1/Pages/AssemblyEditingForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQXNzZW1ibHlFZGl0aW5nRm9ybS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/marmelad/RiderProjects/lab12/WebApplication1/Pages/AssemblyEditingOk.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQXNzZW1ibHlFZGl0aW5nT2suY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/marmelad/RiderProjects/lab12/WebApplication1/Pages/AssemblyView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQXNzZW1ibHlWaWV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/marmelad/RiderProjects/lab12/WebApplication1/Pages/AssemblyViewAll.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQXNzZW1ibHlWaWV3QWxsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/marmelad/RiderProjects/lab12/WebApplication1/Pages/AssemblyViewID.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQXNzZW1ibHlWaWV3SUQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/marmelad/RiderProjects/lab12/WebApplication1/Pages/DetailCreating.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRGV0YWlsQ3JlYXRpbmcuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -44,8 +80,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRGV0YWlsRWRpdGluZy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/marmelad/RiderProjects/lab12/WebApplication1/Pages/EditingForm.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRWRpdGluZ0Zvcm0uY3NodG1s
+[/Users/marmelad/RiderProjects/lab12/WebApplication1/Pages/DetailEditingForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRGV0YWlsRWRpdGluZ0Zvcm0uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/marmelad/RiderProjects/lab12/WebApplication1/Pages/Error.cshtml]
@@ -56,12 +92,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/marmelad/RiderProjects/lab12/WebApplication1/Pages/NoAssemblyDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTm9Bc3NlbWJseURlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/marmelad/RiderProjects/lab12/WebApplication1/Pages/NoDetailDelete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTm9EZXRhaWxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/marmelad/RiderProjects/lab12/WebApplication1/Pages/NoDetailEdit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTm9EZXRhaWxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/marmelad/RiderProjects/lab12/WebApplication1/Pages/PartCreating.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUGFydENyZWF0aW5nLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/marmelad/RiderProjects/lab12/WebApplication1/Pages/Privacy.cshtml]

@@ -4,23 +4,24 @@ using WebApplication1.Models;
 
 namespace WebApplication1.Pages;
 
-public class DetailEditing : PageModel
+public class AssemblyEditing : PageModel
 {
-    [BindProperty] public string DetailName { get; set; } = "";
+    [BindProperty] 
+    public string AssemblyName { get; set; } = "";
     public void OnGet()
     {
     }
 
     public IActionResult OnPost(AssemblyContext db)
     {
-        Detail? find = db.Details.FirstOrDefault(u => u.Name == DetailName);
+        Assembly? find = db.Assemblies.FirstOrDefault(u => u.Name == AssemblyName);
         if (find != null)
         {
-            return Redirect($"/DetailEditingForm/{DetailName}");
+            return Redirect($"/AssemblyEditingForm/{AssemblyName}");
         }
         else
         {
-            return Redirect($"/NoDetailEdit/{DetailName}");  
+            return Redirect($"/NoDetailEdit/{AssemblyName}");  
         }
         
     }

@@ -22,7 +22,7 @@ public class EditingForm : PageModel
       detail = context.Details.FirstOrDefault(u => u.Name == name);
     }
 
-    public IActionResult OnPost(AssemblyContext db)
+    public IActionResult OnPost()
     {
         context.Details.Update(detail);
         context.SaveChanges();

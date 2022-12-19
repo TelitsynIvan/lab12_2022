@@ -1,4 +1,4 @@
-@page
+@page "{Name}"
 @model WebApplication1.Pages.ThereNoDetail
 
 @{
@@ -14,7 +14,7 @@
 <body>
 <div>
     <div class="text-center">
-          <h3 class="display-4">Похоже что такой детали нет. Вы хотите создать ее?</h3>
+          <h3 class="display-4">Похоже что детали @Model.Message нет. Вы хотите создать ее?</h3>
     </div>  
      <form method="post">
     <button type="submit" asp-page-handler="yes">

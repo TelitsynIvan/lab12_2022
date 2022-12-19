@@ -36,5 +36,7 @@ public class AssemblyContext :DbContext
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         base.OnModelCreating(modelBuilder);
+        modelBuilder.Entity<Assembly>().HasMany(u => u.Parts).
+            WithOne(p => p.Assembly).OnDelete(DeleteBehavior.Cascade);
     }
 }
