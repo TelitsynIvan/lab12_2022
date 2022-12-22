@@ -1,0 +1,31 @@
+@page
+@using WebApplication1.Pages.Shared
+@model WebApplication1.Pages.AllAuditoriums
+
+@{
+    Layout = "/Pages/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<div>
+    <h2>Список Аудиторий:</h2>
+    <table>
+        <tr><th>Name</th><th>Number of seats</th><th>Description</th></tr>
+        @foreach(Auditorium auditorium in Model.DisplayedAuditoriums)
+        {
+            <tr>
+                <td>@auditorium.Name</td>
+                <td>@auditorium.NumberOfSeats</td>
+                <td>@auditorium.Description</td>
+            </tr>
+        }
+    </table>
+</div>
+</body>
+</html>

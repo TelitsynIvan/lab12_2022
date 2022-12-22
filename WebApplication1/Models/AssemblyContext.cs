@@ -2,18 +2,18 @@ using Microsoft.EntityFrameworkCore;
 
 namespace WebApplication1.Models;
 
-public class AssemblyContext :DbContext
+public class ApplicationContext :DbContext
 {
-    public DbSet<Detail> Details { get; set; } = null!;
-     public DbSet<Assembly> Assemblies { get; set; } = null!;
-     public DbSet<Part> Parts { get; set; } = null!;
+    public DbSet<Auditorium> Auditoriums { get; set; } = null!;
+    public DbSet<Building> Buildings { get; set; } = null!;
+    public DbSet<AuditoriumGroup> AuditoriumGroups { get; set; } = null!;
 
-    public AssemblyContext()
+    public ApplicationContext()
     {
         Database.EnsureCreated();
     }
     
-    public AssemblyContext(DbContextOptions<AssemblyContext> options)
+    public ApplicationContext(DbContextOptions<ApplicationContext> options)
     :base(options)
     {
         Database.EnsureCreated();
@@ -36,7 +36,7 @@ public class AssemblyContext :DbContext
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         base.OnModelCreating(modelBuilder);
-        modelBuilder.Entity<Assembly>().HasMany(u => u.Parts).
-            WithOne(p => p.Assembly).OnDelete(DeleteBehavior.Cascade);
+        modelBuilder.Entity<Building>().HasMany(u => u.AuditoriumGroups).
+            WithOne(p => p.Building).OnDelete(DeleteBehavior.Cascade);
     }
 }

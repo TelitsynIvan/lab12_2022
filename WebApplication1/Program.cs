@@ -8,7 +8,7 @@ builder.Services.AddRazorPages();
 
 
 string connection = builder.Configuration.GetConnectionString("DefaultConnection");
-builder.Services.AddDbContext<AssemblyContext>(options=>options.UseSqlite(connection));
+builder.Services.AddDbContext<ApplicationContext>(options=>options.UseSqlite(connection));
 
 // using (AssemblyContext db = new())
 // {

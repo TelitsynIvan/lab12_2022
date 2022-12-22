@@ -1,0 +1,37 @@
+@page "{Name}"
+@model WebApplication1.Pages.EditingForm
+
+@{
+    Layout = "Shared/_Layout";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<div>
+    <form method="post" asp-antiforgery="true">
+        <p>
+            <input type = "hidden" value ="@Model.Auditorium.Id" asp-for="Auditorium.Id"/>
+        </p> 
+        <p>
+            <label asp-for="Auditorium.Name">Название</label><br/>
+            <input type="text" value="@Model.Auditorium.Name" asp-for="Auditorium.Name"/>
+        </p>
+        <p>
+            <label asp-for="Auditorium.NumberOfSeats"></label><br/>
+            <input value="@Model.Auditorium.NumberOfSeats" asp-for="Auditorium.NumberOfSeats"/>
+        </p>
+        <p>
+            <label asp-for="Auditorium.Description">Описание</label><br/>
+            <input type="text" value="@Model.Auditorium.Description" asp-for="Auditorium.Description"/>
+        </p>
+        
+        <input type="submit" value="Отправить"/>
+    </form>
+</div>
+</body>
+</html>

@@ -1,0 +1,37 @@
+@page
+@model WebApplication1.Pages.BuildingViewAll
+
+@{
+    Layout = "Shared/_Layout";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<div>
+    @foreach (Building Building in Model.Buildings)
+    {
+      <h3>Здание: @Building.Name </h3>
+          <h3>Количество аудиторий: @Building.AuditoriumGroups.Count </h3>
+          <h3>Список аудиторий: </h3>
+          <table>
+              <tr><th>Name</th><th>Quantity</th><th>Description</th></tr>
+              @foreach (AuditoriumGroup auditorium in Building.AuditoriumGroups)
+              {
+                  <tr>
+                      <td>@auditorium.AuditoriumName</td>
+                      <td>@auditorium.Quantity</td>
+                      <td>@auditorium.Auditorium.Description</td>
+                  </tr>
+              }
+          </table> 
+        
+    }
+    
+</div>
+</body>
+</html>

@@ -1,0 +1,30 @@
+@page
+@model WebApplication1.Pages.BuildingView
+
+@{
+    Layout = "Shared/_Layout";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<div>
+    <form method="post">
+        <p>
+            <label asp-for="BuildingName">Название</label><br/>
+            <input type="text" asp-for="BuildingName"/>
+        </p>
+        <button type="submit" asp-page-handler="ID">
+            Ввод
+        </button>
+        <button type="submit" asp-page-handler="All">
+            Все здания
+        </button>
+    </form>
+</div>
+</body>
+</html>

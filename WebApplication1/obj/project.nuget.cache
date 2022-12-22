@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "N5FnHTa9EjrZAt2obZRibAY/+Fs8Ea66UinYhd04pj7DqpJAl3JNXHt2mwx70BehuVPCUy/xiX2VX1Nb/zWY4A==",
+  "dgSpecHash": "VjPw1t9Gjv96eSkNPsJaT51GcIcpFtZWMkZsEEkSMeEH/SFcX7TrioDlgJLpzI/s+BIcnehII8C33j8Zn77xpg==",
   "success": true,
-  "projectFilePath": "/Users/marmelad/RiderProjects/lab12/WebApplication1/WebApplication1.csproj",
+  "projectFilePath": "/Users/marmelad/lab12_2022/WebApplication1/WebApplication1.csproj",
   "expectedPackageFiles": [
     "/Users/marmelad/.nuget/packages/microsoft.aspnetcore.jsonpatch/7.0.1/microsoft.aspnetcore.jsonpatch.7.0.1.nupkg.sha512",
     "/Users/marmelad/.nuget/packages/microsoft.aspnetcore.mvc.newtonsoftjson/7.0.1/microsoft.aspnetcore.mvc.newtonsoftjson.7.0.1.nupkg.sha512",

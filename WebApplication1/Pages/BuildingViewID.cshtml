@@ -1,0 +1,32 @@
+@page "{Name}"
+@model WebApplication1.Pages.BuildingViewID
+
+@{
+    Layout = "Shared/_Layout";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<div>
+    <h3>Здание: @Model.Building.Name </h3>
+    <h3>Количество аудиторий: @Model.AuditoriumGroups.Count </h3>
+    <h3>Список аудиторий: </h3>
+    <table>
+            <tr><th>Name</th><th>Quantity</th><th>Description</th></tr>
+            @foreach(AuditoriumGroup auditoriumgroup in Model.AuditoriumGroups)
+            {
+                <tr>
+                    <td>@auditoriumgroup.AuditoriumName</td>
+                    <td>@auditoriumgroup.Quantity</td>
+                    <td>@auditoriumgroup.Auditorium.Description</td>
+                </tr>
+            }
+        </table>
+</div>
+</body>
+</html>

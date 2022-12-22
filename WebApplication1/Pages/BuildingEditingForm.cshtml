@@ -1,0 +1,75 @@
+@page "{Name}"
+@using System.Runtime.InteropServices.JavaScript
+@model WebApplication1.Pages.BuildingEditingForm
+
+@{
+    Layout = "Shared/_Layout";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<div>
+    <form method="post" asp-antiforgery="true">
+        <p>
+            <input type = "hidden" value ="@Model.Building.Id" asp-for="Building.Id"/>
+        </p> 
+        <p>
+            <label asp-for="Building.Name">Название</label><br/>
+            <input type="text" value="@Model.Building.Name" asp-for="Building.Name"/>
+        </p>
+        <button id="addAuditoriumGroups" type="button" class="btn btn-info">Список аудиторий</button>
+        <button id="addRow" type="button" class="btn btn-info">Добавить аудиторию в здание</button>
+        <div id="newRow">
+            <input type="hidden" id="total" value="0" />
+        </div>
+        <input type="submit" class="btn btn-primary"  value="Отправить" />
+    </form>
+</div>
+</body>
+</html>
+
+@section Scripts
+{
+    <script>
+     $("#addAuditoriumGroups").click(function (){
+         var rowCount = parseInt($("#total").val());;
+         @for(int i=0; i<Model.AuditoriumGroupsTemp.Count; i++){
+             @: rowCount++;
+             @: $("#total").val(rowCount);
+             @: var html = '';
+             @: html += '<div id="inputRow">';
+             @: html += '<input type="text" value="@Model.AuditoriumGroupsTemp[i].AuditoriumName" name="[' + (rowCount - 1) + '].AuditoriumName"  />';
+             @: html += '<input type="number" value="@Model.AuditoriumGroupsTemp[i].Quantity" name="[' + (rowCount - 1) + '].Quantity"  />';
+             @: html += '<button id="removeRow" type="button" class="btn btn-danger">Remove</button>';
+             @: html += '</div>';
+             @: $('#newRow').append(html);
+         }
+     });
+     $("#addRow").click(function ()
+     {
+         var rowCount = parseInt($("#total").val());
+         rowCount++;
+         $("#total").val(rowCount);
+         var html = '';
+         html += '<div id="inputRow">';
+         html += '<input type="text" name="[' + (rowCount - 1) + '].AuditoriumName"  />';
+         html += '<input type="number" name="[' + (rowCount - 1) + '].Quantity"  />';
+         html += '<button id="removeRow" type="button" class="btn btn-danger">Remove</button>';
+         html += '</div>';
+    
+         $('#newRow').append(html);
+     });
+     $(document).on('click', '#removeRow', function ()
+     {
+         var rowCount = parseInt($("#total").val());
+         rowCount--;
+         $("#total").val(rowCount);
+         $(this).closest('#inputRow').remove();
+     });
+     </script>
+}
